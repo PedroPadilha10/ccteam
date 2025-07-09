@@ -1,0 +1,57 @@
+
+/* Estilos personalizados da academia */
+
+.text-glow {
+  text-shadow: 0 0 10px rgba(255, 0, 39, 0.6); /* changed glow to stronger red */
+}
+
+.hover-underline-animation {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: hsl(0, 90%, 50%); /* updated to stronger red */
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Animações do cursor */
+.cursor-pulse {
+  animation: cursor-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes cursor-pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* Efeitos de cartão avançados */
+.card-3d-effect {
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.card-3d-content {
+  transition: transform 0.5s;
+}
+
+.card-3d-effect:hover .card-3d-content {
+  transform: translateZ(20px) rotateX(5deg) rotateY(5deg);
+}
