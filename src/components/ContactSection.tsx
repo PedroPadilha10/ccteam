@@ -84,7 +84,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="text-white font-medium">Endereço</h4>
-                  <p className="text-white/70">Av. Perimetral , 225 - Parnamirim, RN</p>
+                  <p className="text-white/70">Av. Perimetral , 227 - Parnamirim, RN</p>
                 </div>
               </div>
             </div>
