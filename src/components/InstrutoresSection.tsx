@@ -39,7 +39,7 @@ const InstrutoresSection = () => {
       role: "Instrutor de Muay Thai",
       experience: "8 anos de experiência",
       awards: ["Ex Atleta profissional de MMA", "Campeão Brasileiro CBLP(Gi)"],
-      image: "images/clodomir.jpg",
+      image: "images/Clodomir.jpg",
       instagram: "https://www.instagram.com/clodomir_netobjj/"
     },
     {
@@ -50,6 +50,24 @@ const InstrutoresSection = () => {
       awards: ["Formada em fisioterapia", "Massoterapia pela UFRN"],
       image: "images/menina.jpg",
       instagram: "https://www.instagram.com/wandercleasobrinho/"
+    },
+    {
+      id: 6,
+      name: "Alexandre Andrade",
+      role: "Instrutor de Muay Thai",
+      experience: "6 anos de experiência",
+      awards: ["Cartel de 5 lutas ", "2 armador e 3 profissionais", "Curso de primeiros socorros"],
+      image: "images/Alexandre.jpg",
+      instagram: "https://www.instagram.com/cnteambjj"
+    },
+    {
+      id: 7,
+      name: "Matheus Carvalho",
+      role: "Instrutor de Boxe",
+      experience: "8 anos de experiência",
+      awards: ["Oriundo do Muay Thai", "Especialidade em boxe", "Curso de primeiros socorros"],
+      image: "images/Matheus.jpg",
+      instagram: "https://www.instagram.com/matheuscarvalhobr099"
     }
   ];
 
