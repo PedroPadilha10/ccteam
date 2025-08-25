@@ -39,7 +39,7 @@ const InstrutoresSection = () => {
       role: "Instrutor de Muay Thai",
       experience: "8 anos de experiência",
       awards: ["Ex Atleta profissional de MMA", "Campeão Brasileiro CBLP(Gi)"],
-      image: "images/Clodomir.jpg",
+      image: "images/Clodomir22.jpg",
       instagram: "https://www.instagram.com/clodomir_netobjj/"
     },
     {
