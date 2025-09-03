@@ -36,7 +36,7 @@ const InstrutoresSection = () => {
     {
       id: 4,
       name: "Clodomir Neto",
-      role: "Instrutor de Muay Thai",
+      role: "Instrutor de MMA",
       experience: "8 anos de experiência",
       awards: ["Ex Atleta profissional de MMA", "Campeão Brasileiro CBLP(Gi)"],
       image: "images/Clodomir22.jpg",
