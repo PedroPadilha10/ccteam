@@ -7,7 +7,7 @@ const planos = [
   {
     id: "mensal",
     name: "Plano Mensal",
-    price: "R$ 80,00",
+    price: "R$ 100,00",
     period: "por mês",
     description: "Plano mensal individual com flexibilidade e cobrança recorrente.",
     features: [
@@ -21,11 +21,11 @@ const planos = [
   {
     id: "trimestral",
     name: "Plano Trimestral",
-    price: "R$ 75,00",
+    price: "R$ 95,00",
     period: "por mês",
     description: "Plano com menor custo mensal e validade de 3 meses.",
     features: [
-      "R$ 75,00 por mês com pagamento antecipado do trimestre",
+      "R$ 95,00 por mês com pagamento antecipado do trimestre",
       "Valor fixo até o vencimento escolhido pelo aluno",
       "Acréscimo mensal em caso de atraso",
       "1 aula experimental em qualquer modalidade"
@@ -35,11 +35,11 @@ const planos = [
   {
     id: "semestral",
     name: "Plano Semestral",
-    price: "R$ 70,00",
+    price: "R$ 90,00",
     period: "por mês",
     description: "Plano ideal para quem busca constância e economia a longo prazo.",
     features: [
-      "R$ 70,00 por mês com pagamento antecipado do semestre",
+      "R$ 90,00 por mês com pagamento antecipado do semestre",
       "Valor fixo até o vencimento escolhido pelo aluno",
       "Acréscimo mensal em caso de atraso",
       "1 aula experimental em qualquer modalidade"
@@ -49,11 +49,11 @@ const planos = [
   {
     id: "anual",
     name: "Plano Anual",
-    price: "R$ 60,00",
+    price: "R$ 80,00",
     period: "por mês",
     description: "Plano mais econômico e indicado para alunos dedicados.",
     features: [
-      "R$ 60,00 por mês com pagamento anual antecipado",
+      "R$ 80,00 por mês com pagamento anual antecipado",
       "Valor garantido até a data de vencimento",
       "Acréscimo em caso de atraso após vencimento",
       "1 aula experimental em qualquer modalidade"
@@ -67,8 +67,8 @@ const planos = [
     period: "por mês",
     description: "Desconto especial para grupos de 2 a 5. Ideal para treinar em conjunto.",
     features: [
-      "2 a 3 membros: R$ 75,00 (mensal), R$ 70,00 (trimestral), R$ 65,00 (semestral), R$ 60,00 (anual)",
-      "4 a 5 membros: R$ 70,00 (mensal), R$ 65,00 (trimestral), R$ 60,00 (semestral), R$ 55,00 (anual)",
+      "2 a 3 membros: R$ 90,00 (mensal), R$ 85,00 (trimestral), R$ 80,00 (semestral), R$ 75,00 (anual)",
+      "4 a 5 membros: R$ 80,00 (mensal), R$ 75,00 (trimestral), R$ 70,00 (semestral), R$ 65,00 (anual)",
       "Válido para: pai, filho, cônjuge ou irmão, familiares que residem na mesma residência"
     ],
     highlighted: false
