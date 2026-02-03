@@ -39,6 +39,18 @@ const modalidades = [
     description: "Suavidade, técnica e autoconhecimento em cada projeção.",
     image: "images/judo.jpg",
   },
+  {
+    id: "MMA",
+    title: "MMA",
+    description: "Suavidade, técnica e autoconhecimento em cada projeção.",
+    image: "images/mma1.jpg",
+  },
+  {
+    id: "Boxe",
+    title: "Boxe",
+    description: "Suavidade, técnica e autoconhecimento em cada projeção.",
+    image: "images/boxe2222.jpg",
+  },
 ];
 
 const ModalidadesSection = () => {
@@ -60,6 +72,15 @@ const ModalidadesSection = () => {
             Escolha sua arte marcial e libere o seu potencial com treinadores experientes.
           </p>
         </div>
+
+        <div className="text-center max-w-2xl mx-auto mb-20">
+          <p className="text-white/60 text-sm sm:text-base leading-relaxed">
+            Também oferecemos <strong className="text-white">aulas particulares</strong> e
+            turmas <strong className="text-white">kids de Jiu-Jitsu e Judô</strong>,
+            focadas em disciplina, confiança e desenvolvimento desde cedo.
+          </p>
+        </div>
+
 
         <Carousel
           opts={{ loop: true, align: "center", slidesToScroll: 1 }}
