@@ -63,7 +63,7 @@ const planos = [
   {
     id: "familia",
     name: "Plano Família",
-    price: "R$ 55,00",
+    price: "R$ 95,00",
     period: "por mês",
     description: "Desconto especial para grupos de 2 a 5. Ideal para treinar em conjunto.",
     features: [
